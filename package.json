@@ -1,0 +1,18 @@
+{
+  "name": "lov-openai-proxy",
+  "version": "1.0.0",
+  "description": "Serveur proxy OpenAI pour LoV AI Platform",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5",
+    "openai": "^4.20.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
